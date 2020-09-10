@@ -62,7 +62,7 @@ installcocextensions() { \
   [ ! -f package.json ] && echo '{"dependencies":{}}'> package.json
   # Change extension names to the extensions you need
   # sudo npm install coc-explorer coc-snippets coc-json coc-actions --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
-  sudo npm install coc-explorer coc-snippets coc-json coc-actions --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
+  npm install coc-explorer coc-snippets coc-json coc-actions --global-style --ignore-scripts --no-bin-links --no-package-lock --only=prod
 }
 
 cloneconfig() { \
@@ -114,8 +114,8 @@ pipinstallueberzug() { \
 }
 
 installonubuntu() { \
-  sudo apt install ripgrep fzf ranger
-  sudo apt install libjpeg8-dev zlib1g-dev python-dev python3-dev libxtst-dev
+  apt install ripgrep fzf ranger
+  apt install libjpeg8-dev zlib1g-dev python-dev python3-dev libxtst-dev
   pip3 install ueberzug
   pip3 install neovim-remote
 }
