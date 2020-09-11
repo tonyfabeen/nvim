@@ -212,3 +212,15 @@ If anyone reading this has any suggestions about implementing any of the followi
 - later manually link pylance
 - resize with arrows in addition to meta
 - how to support meta key on for macOS?
+
+## ISSUES
+
+If you installed `NERD fonts` and anyhow you still don't be able to see the icons (?), try changing the fonts on your local terminal.
+https://github.com/weirongxu/coc-explorer/issues/74
+
+if you haven't installed NERD Fonts yet. Try doing so:
+
+```
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
+```
