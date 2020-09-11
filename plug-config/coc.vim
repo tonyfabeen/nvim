@@ -25,6 +25,7 @@
     \ 'coc-yank',
     \ 'coc-json',
     \ 'coc-marketplace',
+    \ 'coc-solargraph',
     \ ]
     " \ 'coc-tabnine',
     " \ 'coc-highlight',
