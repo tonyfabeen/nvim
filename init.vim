@@ -54,6 +54,7 @@ else
   luafile $HOME/.config/nvim/lua/plug-colorizer.lua
   " source $HOME/.config/nvim/plug-config/vimspector.vim " Uncomment if you want to use Vimspector
   " source $HOME/.config/nvim/plug-config/ale.vim
+  source $HOME/.config/nvim/themes/onedark.vim
 endif
 
 " Add paths to node and python here

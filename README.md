@@ -213,6 +213,14 @@ If anyone reading this has any suggestions about implementing any of the followi
 - resize with arrows in addition to meta
 - how to support meta key on for macOS?
 
+## Themes
+
+Currently i'm using [`one dark`](https://github.com/nathanbuchar/atom-one-dark-terminal) theme.
+It should be added to your terminal colors preset too.
+
+[help](https://www.chrisatmachine.com/Neovim/03-vim-themes/)
+
+
 ## ISSUES
 
 If you installed `NERD fonts` and anyhow you still don't be able to see the icons (?), try changing the fonts on your local terminal.
