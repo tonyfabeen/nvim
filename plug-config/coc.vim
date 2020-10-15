@@ -27,6 +27,7 @@
     \ 'coc-marketplace',
     \ 'coc-solargraph',
     \ 'coc-metals',
+    \ 'coc-go',
     \ ]
     " \ 'coc-tabnine',
     " \ 'coc-highlight',
